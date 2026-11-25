@@ -2,9 +2,7 @@
 
 - **Matière** : Architecture MicroServices, **Filière** : MPSRCC1
 - **Projet IntelliJ** : `calculatrice-spring-cloud` (Spring Boot 4.0.9, Spring Cloud 2025.1.2)
-- **Nom et prénom** : *(à compléter)*
-
-> Les images sont dans le dossier `images/` (`0.png` à `22.png`). Une capture marquée **(à ajouter)** n'est pas encore insérée.
+- **Nom et prénom** : *Bey Aya*
 
 ## 1. Structure et ports
 
@@ -144,10 +142,3 @@ Passerelle Spring Cloud Gateway (WebFlux, Netty) sur le port 8888, inscrite dans
 - Un caractère en trop après l'accolade fermante du corps JSON dans Swagger (un `*` copié) provoque un `400 Bad Request` standard de Spring.
 - Spring Cloud Gateway 5 : préfixe `spring.cloud.gateway.server.webflux` ; `management.endpoint.gateway.access=read-only` pour afficher `/actuator/gateway/routes` ; `trusted-proxies` (valeur `.*` en local) pour que les en-têtes `X-Forwarded-*` soient transmis.
 
-## 9. Captures demandées en fin de TP
-
-- [ ] Tableau de bord Eureka avec les trois services, dont CALCUL-SERVICE avec deux instances
-- [x] `http://localhost:8888/actuator/gateway/routes` en configuration dynamique
-- [ ] Swagger UI de la passerelle en configuration statique (E.2)
-- [x] Swagger UI de la passerelle en configuration dynamique (E.5)
-- [ ] Les cinq consoles avec les ports 8761, 8081, 8083, 8082 et 8888
